@@ -101,62 +101,62 @@ namespace Scene3D
             sh = new Vector3(size + size / 3, size + size / 3, size + size / 3);
             GenerateSierpinskiCube(scene, m, new Vector3(size, size, size), size / 3, sh+center, it - 1);
 
-            sh = new Vector3(size + size / 3, size + size / 3, size + size / 3);
-            GenerateSierpinskiCube(scene, m, Vector3.Zero, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, size + size / 3, size + size / 3);
+            //GenerateSierpinskiCube(scene, m, Vector3.Zero, size / 3, sh, it - 1);
 
-            sh = new Vector3(size + size / 3, size + size / 3, size + size / 3);
-            GenerateSierpinskiCube(scene, m, Vector3.Zero, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, size + size / 3, size + size / 3);
+            //GenerateSierpinskiCube(scene, m, Vector3.Zero, size / 3, sh, it - 1);
 
-            sh = new Vector3(size / 3, -size + size / 3, size + size / 3);
-            GenerateSierpinskiCube(scene, m, Vector3.Zero, size / 3, sh, it - 1);
+            //sh = new Vector3(size / 3, -size + size / 3, size + size / 3);
+            //GenerateSierpinskiCube(scene, m, Vector3.Zero, size / 3, sh, it - 1);
 
-            sh = new Vector3(-size + size / 3, size + size / 3, size + size / 3);
-            GenerateSierpinskiCube(scene, m, Vector3.Zero, size / 3, sh, it - 1);
+            //sh = new Vector3(-size + size / 3, size + size / 3, size + size / 3);
+            //GenerateSierpinskiCube(scene, m, Vector3.Zero, size / 3, sh, it - 1);
 
-            sh = new Vector3(-size + size / 3, size / 3, size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(-size + size / 3, size / 3, size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(-size + size / 3, -size + size / 3, size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(-size + size / 3, -size + size / 3, size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(-size + size / 3, size + size / 3, size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(-size + size / 3, size + size / 3, size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(-size + size / 3, size + size / 3, -size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(-size + size / 3, size + size / 3, -size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(size + size / 3, size / 3, size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, size / 3, size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(size + size / 3, size / 3, -size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, size / 3, -size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(size + size / 3, -size + size / 3, size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, -size + size / 3, size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(size + size / 3, -size + size / 3, size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, -size + size / 3, size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(size + size / 3, -size + size / 3, -size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, -size + size / 3, -size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(size + size / 3, size + size / 3, size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, size + size / 3, size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(size + size / 3, size + size / 3, -size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(size + size / 3, size + size / 3, -size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(-size + size / 3, -size + size / 3, size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(-size + size / 3, -size + size / 3, size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(-size + size / 3, -size + size / 3, -size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(-size + size / 3, -size + size / 3, -size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(size / 3, -size + size / 3, -size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(size / 3, -size + size / 3, -size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
-            sh = new Vector3(-size + size / 3, size / 3, -size + size / 3);
-            GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
+            //sh = new Vector3(-size + size / 3, size / 3, -size + size / 3);
+            //GenerateSierpinskiCube(scene, m, center, size / 3, sh, it - 1);
 
             it--;
         }
